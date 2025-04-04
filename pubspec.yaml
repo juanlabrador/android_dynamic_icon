@@ -1,6 +1,6 @@
 name: android_dynamic_icon
 description: A flutter plugin for dynamically changing multiple android app icons for your app.
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/yatharth25
 repository: https://github.com/yatharth25/android_dynamic_icon
 issue_tracker: https://github.com/yatharth25/android_dynamic_icon/issues
@@ -12,13 +12,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
-  flutter_plugin_android_lifecycle: ^2.0.15
+  plugin_platform_interface: ^2.1.8
+  flutter_plugin_android_lifecycle: ^2.0.27
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

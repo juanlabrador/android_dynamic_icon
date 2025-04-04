@@ -27,7 +27,7 @@ public class MethodCallImplementation implements MethodCallHandler {
   private MethodChannel channel;
   private Context context;
   private Activity activity;
-  private static final String TAG = AndroidDynamicIconPlugin.getTAG();
+    private static final String TAG = "[android_dynamic_icon]";
 
   private static List<String> classNames = null;
   private static boolean iconChanged = false;

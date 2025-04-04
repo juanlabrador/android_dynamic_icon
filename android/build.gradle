@@ -1,18 +1,4 @@
-group 'com.example.android_dynamic_icon'
-version '1.0-SNAPSHOT'
-
-buildscript {
-    ext.kotlin_version = '1.9.22'
-    repositories {
-        google()
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.8.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
+// Generated file. Do not edit.
 
 allprojects {
     repositories {
@@ -21,27 +7,40 @@ allprojects {
     }
 }
 
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
 
 android {
-    compileSdkVersion 35
-    namespace 'com.example.android_dynamic_icon'
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = '17'
-    }
-
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
-
+    namespace = "com.example.android_dynamic_icon"
+    compileSdk = 35
     defaultConfig {
-        minSdkVersion 23
+        minSdk = 23
+        targetSdk = 35
     }
 }
+
+
+//apply plugin: 'com.android.library'
+//apply plugin: 'kotlin-android'
+//
+//android {
+//    compileSdkVersion 35
+//    namespace 'com.example.android_dynamic_icon'
+//
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_17
+//        targetCompatibility JavaVersion.VERSION_17
+//    }
+//
+//    kotlinOptions {
+//        jvmTarget = '17'
+//    }
+//
+//    sourceSets {
+//        main.java.srcDirs += 'src/main/kotlin'
+//    }
+//
+//    defaultConfig {
+//        minSdkVersion 23
+//    }
+//}
